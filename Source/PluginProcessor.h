@@ -117,8 +117,6 @@ private:
     int mWritePositions[NUM_DELAYS] = { 0 };
     int mSampleRate = { 44100 };
 
-    std::atomic<float>* timeParameter = nullptr;
-
     //UI Parameters
     float makeUpGain = 0.0f;
     float dryGain = 1.0f;
