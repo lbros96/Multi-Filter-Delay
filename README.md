@@ -1,9 +1,9 @@
 # Multi-Filter-Delay
 An original digital audio effect programmed through Juce/C++. Some potential uses for the plugin are to create complex polyrhythms from very simple section of MIDI drums, apply
 delays to multiple instruments from a single audio recording separately and delay different
-frequency bands within a single sound individually. The audio effect has the following features:
+frequency bands within a single sound. The audio effect has the following features:
 * 3 separate delays of the same signal with the following adjustable parameters:
-  * Delay time, in terms of milliseconds or sixteenth notes
+  * Delay time, in terms of milliseconds or synced to sixteenth notes
   * Feedback
   * Filter Type e.g. No-Filter/Low-Pass/High-Pass
   * Filter Cutoff, in Hz
